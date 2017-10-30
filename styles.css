@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+  color: #111;
+  background: url('svgs/background.svg') #edeff0;
+}
+
+#container {
+  background: #fff;
+  margin: 0 auto;
+}
+
+p {
+	width: 90%;
+	text-align: center;
+	line-height: 2em;
+	margin: 35px auto 0;
+}
+
+h1 {
+	
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 20px;
+	}
+
+/*NAV STYLES-----------------------------------------*/
+
+a {
+  text-decoration: none;
+  color: #2d3339;
+  font-weight: 700;
+	
+  }
+  a:hover {
+    color: #39add1;
+  }
+
+header {
+  padding-top: 10px;
+	
+}
+  header nav {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+nav {
+	margin-left: -20px;
+	}
+	
+header nav ul{
+	padding-left: 0;
+	text-align: center;
+	height: 50px;
+		
+	}
+
+  header nav ul li {
+    display: inline-block;
+    
+	
+  }
+
+ header nav ul li a svg {
+    height: 13px;
+	padding: 1em 0 1em 1em;
+	
+  }
+
+span {
+	float: right;
+	padding-top: 1em;
+	
+}
+	
+.black {
+	transition: transform .5s ease-in-out;
+	transform-origin: 50% 50%;
+}
+
+a:hover .black {
+	transform: scale(1.7);
+	fill: #39add1;
+}
+
+
+/*LOGO STYLES-----------------------------------------------*/
+.logo {
+	width: 140px;
+	height: 120px;
+}
+
+.logoTitle {
+	display: block;
+	font-size: 1em;
+	margin-bottom: 0;
+	color: #eaaa7f;
+}
+
+.logoTitle {
+	transition: color .5s ease-out;
+}
+
+#logo-container:hover .logoTitle {
+	color: #834b29;
+}
+
+.logo .fawn {
+		opacity: 0;
+	}
+
+#logo-container {
+	width: 170px;
+	margin: 0 auto;
+}
+
+
+.red {
+	transition: fill .5s ease-out;
+}
+
+#logo-container:hover .red {
+	fill: #834b29;
+}
+
+/*CORGI STYLES-----------------------------------------------------*/
+
+main {
+  padding-top: 50px;
+}
+  main h2 {
+  font-size: 1.25em;
+}
+
+#corgi-container {
+	margin-left: 35px;
+}
+
+.corgi-red {
+	color: #834b29;
+}
+
+.corgi-fawn {
+	color: #e9aa82;
+}
+
+.corgi-sable {
+	color: #b97f5b;
+}
+
+.corgi-stone {
+	color: #52595e;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 30px;
+  color: #ba8058;
+}
+
+
+
+
+@media (min-width: 425px) {
+	#container {
+		max-width: 960px;
+	}
+	
+	p {
+		max-width: 400px;
+	}
+	
+	header nav ul li {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
+	header nav ul {
+	height: 50px;
+	
+	 
+}
+	
+	span {
+		margin-right: 0;
+}
+	
+
+	.logoTitle {
+		display: none;
+}
+	
+	#logoText {
+		transition: transform 1.5s ease-in-out;
+		transform-origin: 50% 87%;
+}
+
+	#logo-container:hover #logoText {
+		transform: rotate(360deg);
+}
+	
+	.logo .fawn {
+		opacity: 1;
+	}
+	
+	h1 {
+		font-size: 2em;
+	}
+	
+	  main h2 {
+  		font-size: 1.25em;
+}
+
+}
