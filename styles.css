@@ -83,7 +83,7 @@ span {
 	
 .black {
 	transition: transform .5s ease-in-out;
-	transform-origin: 50% 50%;
+	transform-origin: 12px 10px;
 }
 
 a:hover .black {
@@ -201,7 +201,7 @@ footer {
 	
 	#logoText {
 		transition: transform 1.5s ease-in-out;
-		transform-origin: 50% 87%;
+		transform-origin: 71px 69px;
 }
 
 	#logo-container:hover #logoText {
